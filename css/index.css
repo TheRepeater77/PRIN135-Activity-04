@@ -144,6 +144,6 @@ html, body{
     background: rgb(128, 128, 128);
 }
 .black .marker-lines{
-    border: rgb(32, 32, 32);
+    border-color: rgb(32, 32, 32);
 }
 
