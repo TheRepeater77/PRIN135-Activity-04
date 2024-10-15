@@ -34,7 +34,7 @@ html, body{
 }
 
 .marker-con{
-    height: 30%;
+    height: 19.4%;
     align-content: center;
 }
 
@@ -147,3 +147,70 @@ html, body{
     border-color: rgb(32, 32, 32);
 }
 
+.orange{
+    background: rgb(252, 151, 0);
+    box-shadow: 0px 0px 20px 2px rgba(252, 172, 0, 0.71);
+}
+.orange .marker-textbox{
+    background: rgb(253, 213, 128);
+}
+
+.turqoise{
+    background: rgb(44, 255, 202);
+    box-shadow: 0px 0px 20px 2px rgba(38, 255, 219, 0.71);
+}
+.turqoise .marker-textbox{
+    background: rgb(130, 255, 203);
+}
+
+.lavender{
+    background: rgb(130, 65, 176);
+    box-shadow: 0px 0px 20px 2px rgba(130, 65, 176, 0.71);
+}
+.lavender .marker-textbox{
+    background: rgb(198, 118, 255);
+}
+
+.maroon{
+    background: rgb(91, 24, 43);
+    box-shadow: 0px 0px 20px 2px rgba(91, 24, 43, 0.71);
+}
+.maroon .marker-textbox{
+    background: rgb(124, 53, 73);
+}
+
+.mustardyellow{
+    background: rgb(247, 200, 26);
+    box-shadow: 0px 0px 20px 2px rgba(247, 200, 26, 0.71);
+    font-size: 95%;
+}
+.mustardyellow .marker-textbox{
+    background: rgb(255, 224, 113);
+}
+
+.lightblue{
+    background: rgb(140, 206, 247);
+    box-shadow: 0px 0px 20px 2px rgba(140, 206, 247, 0.71);
+    font-size: 95%;
+}
+.lightblue .marker-textbox{
+    background: rgb(162, 220, 255);
+}
+
+.yellowgreen{
+    background: rgb(198, 247, 0);
+    box-shadow: 0px 0px 20px 2px rgba(198, 247, 0, 0.71);
+    font-size: 95%;
+}
+.yellowgreen .marker-textbox{
+    background: rgb(222, 255, 90);
+}
+
+.teal{
+    background: rgb(0, 124, 124);
+    box-shadow: 0px 0px 20px 2px rgba(0, 124, 124, 0.71);
+    font-size: 95%;
+}
+.teal .marker-textbox{
+    background: rgb(20, 163, 163);
+}
