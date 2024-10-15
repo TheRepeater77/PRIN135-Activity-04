@@ -7,5 +7,143 @@
 }
 
 #header{
+    height: 50px;
+    width: 100%;
+    background-color: #e96969;
     
+    margin-bottom: 1%;
 }
+
+html, body{
+    height: 100%;
+}
+
+#colors{
+    height: 30%;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.container{
+    vertical-align: middle;
+    align-content:center;
+}
+
+.marker-con{
+    height: 30%;
+    align-content: center;
+}
+
+.marker{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    background: rgb(255, 61, 61);
+
+    margin: 0 auto;
+    align-content: center;
+
+    box-shadow: 0px 0px 20px 2px rgba(255, 26, 26, 0.71);
+}
+
+.marker-textbox{
+    position: relative;
+    left: 60px;
+
+    text-align: right;
+    align-content: center;
+
+    height: 100%;
+    width: 120px;
+    padding: 0px 5px;
+
+    background: rgb(255, 145, 145);
+}
+
+.marker-lines{
+    position:relative;
+    top: -30px;
+    left: 60px;
+
+    border: 3px solid rgb(28, 28, 28);
+
+    border-top: 0px;
+    border-bottom: 0px;
+
+    height: 100%;
+    width: 10px;
+}
+
+/* =================COLORS================= */
+
+.red{
+    background: rgb(255, 61, 61);
+    box-shadow: 0px 0px 20px 2px rgba(255, 26, 26, 0.71);
+}
+.red .marker-textbox{
+    background: rgb(255, 145, 145);
+}
+
+.green{
+    background: rgb(0, 127, 1);
+    box-shadow: 0px 0px 20px 2px rgba(0, 127, 1, 0.71);
+}
+.green .marker-textbox{
+    background: rgb(128, 191, 130);
+}
+
+.blue{
+    background: rgb(1, 0, 255);
+    box-shadow: 0px 0px 20px 2px rgba(1, 0, 255, 0.71);
+}
+.blue .marker-textbox{
+    background: rgb(130, 129, 254);
+}
+
+.lightrose{
+    background: rgb(246, 116, 135);
+    box-shadow: 0px 0px 20px 2px rgba(246, 116, 135, 0.71);
+}
+.lightrose .marker-textbox{
+    background: rgb(252, 185, 195);
+}
+
+.cyan{
+    background: rgb(3, 255, 252);
+    box-shadow: 0px 0px 20px 2px rgba(3, 255, 252, 0.71);
+}
+.cyan .marker-textbox{
+    background: rgb(134, 255, 249);
+}
+
+.yellow{
+    background: rgb(255, 252, 3);
+    box-shadow: 0px 0px 20px 2px rgba(255, 252, 3, 0.71);
+}
+.yellow .marker-textbox{
+    background: rgb(255, 254, 129);
+}
+
+.magenta{
+    background: rgb(252, 0, 252);
+    box-shadow: 0px 0px 20px 2px rgba(252, 0, 252, 0.71);
+}
+.magenta .marker-textbox{
+    background: rgb(253, 128, 253);
+}
+
+.black{
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.71);
+}
+.black .marker-textbox{
+    background: rgb(128, 128, 128);
+}
+.black .marker-lines{
+    border: rgb(32, 32, 32);
+}
+
